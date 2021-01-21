@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import './spinner.css';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-user {
+  border-top: 4px solid #ffc107!important;
+}
+
+.navbar-approver {
+  border-top: 4px solid #28a745!important;
+}
+
+.navbar-analyst {
+  border-top: 4px solid #17a2b8!important;
+}
+
+.card-footer {
+  border-top: 0;
+}
+
+.card-header {
+  border-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav > li {
+    float: left;
+    position: relative;
+  }
+  .navbar-light .navbar-nav .active a::after {
+    border-bottom: 5px solid #5bc0eb;
+    bottom: -15px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+}
+
